@@ -1,15 +1,24 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
-    <header className="flex justify-between items-center mx-auto py-8 w-3/4">
+    <header className="flex justify-between items-center mx-auto py-4 w-3/4">
       <div>
-        <p className="text-6xl font-bold">SP.</p>
+        <p className="text-6xl font-bold">
+          <Link to="/">SP.</Link>
+        </p>
       </div>
       <nav className="flex items-center">
-        <ul className="flex space-x-4">
-          <li className="hover:text-red-600 hover:font-semibold">Resume</li>
-          <li className="hover:text-red-600 hover:font-semibold">Projects</li>
-          <li className="hover:text-red-600 hover:font-semibold">Experience</li>
-          <li className="hover:text-red-600 hover:font-semibold">Contact</li>
+        <ul className="md:flex space-x-4 hidden md:block">
+          <li className="hover:text-teal-600 hover:font-semibold">
+            <Link to="/">About</Link>
+          </li>
+          <li className="hover:text-teal-600 hover:font-semibold">
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li className="hover:text-teal-600 hover:font-semibold">
+            <Link to="/experience">Experience</Link>
+          </li>
         </ul>
       </nav>
     </header>
