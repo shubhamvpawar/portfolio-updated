@@ -53,10 +53,10 @@ const Hero = () => {
       </ul>
       <div className="flex items-center mt-2">
         <span>Contact : </span>
-        <button className="border border-white m-2 px-2 rounded-lg hover:bg-teal-900 hover:bg-opacity-50 font-semibold">
+        <button className="border border-white m-2 px-2 rounded-lg hover:bg-teal-600 hover:bg-opacity-50 font-semibold">
           <a href="mailto:shubhvpawar@gmail.com">Gmail</a>
         </button>
-        <button className="border border-white m-2 px-2 rounded-lg hover:bg-teal-900 hover:bg-opacity-50 font-semibold">
+        <button className="border border-white m-2 px-2 rounded-lg hover:bg-teal-600 hover:bg-opacity-50 font-semibold">
           <a
             href="https://www.linkedin.com/in/shubhamp34"
             target="_blank"

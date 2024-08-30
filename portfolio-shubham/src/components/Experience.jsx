@@ -6,11 +6,20 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa";
 import { SiMicrosoftazure } from "react-icons/si";
+import { IoMdArrowRoundBack } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Experience = () => {
   return (
     <div className="items-center mx-auto py-8 w-3/4">
-      <h3 className="font-semibold mb-4 underline">Experience</h3>
+      <div className="flex justify-between">
+        <h3 className="font-semibold mb-4 underline">Experience</h3>
+        <span>
+          <Link to="/">
+            <IoMdArrowRoundBack />
+          </Link>
+        </span>
+      </div>
       <div className="px-0">
         <div className="px-0">
           <h2 className="font-bold">Software Developer, AMDOCS</h2>
